@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "f942c1aa244874c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b521c309482e670a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15f80be90e9aac34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/copa-2026-chopp/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a22f7ef0692e0b40",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcea07ef32226b7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8b0e8efb6257bd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a09786bc4cf50c50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "683be5fd5ae9030f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98db3567f699eddf",
+    "type": "split",
+    "children": [
+      {
+        "id": "764c9a573371e58d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bad83dc16c337d87",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "projects/financial-management.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for financial-management"
+            }
+          },
+          {
+            "id": "d2c9db06f41c7f2e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "projects/financial-management.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from financial-management"
+            }
+          },
+          {
+            "id": "2be4020b2d7d87e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d968b3f73d364131",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5a3b66f686b61cd3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "projects/financial-management.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of financial-management"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "15f80be90e9aac34",
+  "lastOpenFiles": [
+    "ideas/apresentacoes-web-skill-claude.md",
+    "ideas",
+    "outputs/2026-04-07-copa-showcase-arquitetura.md",
+    "_temp/Club_Logo-Toronto_vz6hao.png",
+    "_temp/Club_Logo-LAFC_djrhru.png",
+    "_temp/Club_Logo-Philadelphia_im7pqg.png",
+    "_temp/Club_Logo-Miami_tyqe64.png",
+    "projects/copa-2026-chopp/context.md",
+    "outputs/2026-03-31-dual-ai-second-brain.md",
+    "outputs/2026-03-31-fluxo-completo-validacao.md",
+    "outputs/2026-04-01-discovery-regua-aniversario-inapp.md",
+    "outputs/2026-04-06-pauta-1on1-gestor.md",
+    "research/2026-04-07-calendar-marketing-desk-research.md",
+    "daily/2026-04-07.md",
+    "daily/2026-04-06.md",
+    "tasks/1-1-gestor.md",
+    "tasks/teste-usabilidade-nova-jornada-chopp.md",
+    "projects/nova-jornada-chopp/index.md",
+    "projects/nova-jornada-chopp",
+    "tasks/reavaliar-email-csat.md",
+    "daily/2026-03-28.md",
+    "projects/copa-2026-chopp/index.md",
+    "projects/copa-2026-chopp",
+    "daily/2026-04-02.md",
+    "tasks/do-adicionar-tarefas-jira.md",
+    "tasks/do-segundo-disparo-pesquisa-d0.md",
+    "outputs/2026-04-02-d0-same-day-dashboard.html",
+    "context/research-d0-same-day-parcial-2026-04.md",
+    "_temp/responses-R6xNRmuk-01KN77VSMA94MJJB57MHW5PGWP-YJGALNYGF0WAZXD3BN1RYD2A (1).csv",
+    "tasks/do-pesquisa-abril.md",
+    "projects/do-same-day-delivery/index.md",
+    "projects/do-same-day-delivery",
+    "projects/regua-aniversario-inapp/primeiro-teste.md",
+    "_temp/image.jpeg",
+    "context/research-regua-aniversario-benchmark.md",
+    "research/2026-04-02-regua-aniversario-benchmark-transcript.md",
+    "tasks/regua-aniversario-desenho-solucao.md",
+    "projects/financial-management",
+    "projects/regua-aniversario-inapp",
+    "_temp/responses-CAV8Nwty-01KN4K7G1AFZ18MKHBAXDY188M-U6Y62JD7TN2K0M08MB7984UF.csv",
+    "_temp/responses-uZ04gUhL-01KN4K6NJSBSA850K30QJE0GXM-AL7PQZG6B120MC04450KY73V.csv"
+  ]
+}

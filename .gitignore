@@ -1,0 +1,21 @@
+# ── Personal content ─────────────────────────────────────────────────────────
+finance/
+projects/financial-management/
+people/namorada.md
+context/financial-profile.md
+
+# Daily plans contain a mix of personal and sensitive info
+daily/
+
+# ── Cursor IDE local settings (machine-specific) ──────────────────────────────
+.cursor/
+
+# ── Claude local settings (machine-specific paths and permissions) ────────────
+.claude/settings.local.json
+.claude/reference/employees.json
+
+# ── Temporary / scratch files ────────────────────────────────────────────────
+_temp/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store

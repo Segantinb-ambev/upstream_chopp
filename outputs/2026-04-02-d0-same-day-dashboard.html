@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D0 Same Day — Dashboard de Pesquisa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f5f0;
+      --card: #ffffff;
+      --border: #e8e8e2;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #ffd100;
+      --accent-light: #fffbe6;
+      --accent-dark: #1a1a1a;
+      --accent2: #3d3d3d;
+      --accent2-light: #f0f0ee;
+      --green: #22c55e;
+      --green-light: #f0fdf4;
+      --amber: #ffd100;
+      --amber-light: #fffbe6;
+      --radius: 14px;
+      --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    }
+
+    body {
+      background: var(--bg);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text);
+      min-height: 100vh;
+      padding: 28px 32px 48px;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+    }
+    .header-left { display: flex; align-items: center; gap: 14px; }
+    .logo {
+      width: 42px; height: 42px;
+      background: #1a1a1a;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: #ffd100; font-size: 18px; font-weight: 800;
+    }
+    .header-title { font-size: 18px; font-weight: 700; }
+    .header-sub { font-size: 13px; color: var(--muted); margin-top: 1px; }
+
+    .badge-partial {
+      background: #fffbe6;
+      color: #1a1a1a;
+      border: 1px solid #ffd100;
+      border-radius: 999px;
+      padding: 4px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .header-right { display: flex; align-items: center; gap: 12px; }
+    .date-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 8px 18px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .date-box strong { color: var(--text); display: block; font-size: 15px; }
+
+    /* ── GRID ── */
+    .grid { display: grid; gap: 16px; }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    .grid-1-2 { grid-template-columns: 1fr 2fr; }
+    .grid-2-1 { grid-template-columns: 2fr 1fr; }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      box-shadow: var(--shadow);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .card { animation: fadeUp 0.45s ease both; }
+    .card-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+    }
+    .card-value {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--text);
+    }
+    .card-value.accent { color: #1a1a1a; }
+    .card-value.green { color: var(--green); }
+    .card-value.blue { color: #1a1a1a; }
+    .card-sub {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .card-desc {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    /* ── PROGRESS BAR (meta) ── */
+    .progress-wrap { margin-top: 14px; }
+    .progress-track {
+      width: 100%; height: 10px;
+      background: var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    @keyframes progressIn {
+      from { width: 0%; }
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #ffd100, #ffe566);
+      border-radius: 999px;
+      animation: progressIn 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      transition: width 1s ease;
+    }
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    /* ── KPI ROW ── */
+    .kpi-icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .kpi-icon.orange { background: #fffbe6; }
+    .kpi-icon.green { background: var(--green-light); }
+    .kpi-icon.blue { background: #f0f0ee; }
+    .kpi-icon.amber { background: #fffbe6; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 20px 0;
+    }
+
+    /* ── INSIGHT CHIP ── */
+    .insight {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #ffd100;
+      color: #1a1a1a;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .insight.green { background: var(--green-light); color: #16a34a; }
+    .insight.blue { background: #1a1a1a; color: #ffd100; }
+
+    /* ── LEGEND ── */
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 14px; }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+    .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── CHART CONTAINER ── */
+    .chart-container { position: relative; }
+
+    /* ── STAT LIST ── */
+    .stat-list { display: flex; flex-direction: column; gap: 10px; }
+    .stat-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .stat-label { font-size: 12px; color: var(--muted); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .stat-bar-wrap { flex: 2; height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; }
+    .stat-bar { height: 100%; border-radius: 999px; }
+    .stat-pct { font-size: 12px; font-weight: 700; color: var(--text); width: 36px; text-align: right; flex-shrink: 0; }
+
+    /* ── SECTION LABEL ── */
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 24px 0 10px;
+    }
+
+    /* ── NOTA PARCIAL ── */
+    .nota-parcial {
+      background: #fffbe6;
+      border: 1px solid #ffd100;
+      border-radius: 10px;
+      padding: 12px 18px;
+      font-size: 12px;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .nota-parcial span { font-size: 16px; flex-shrink: 0; }
+
+    /* ── TABS ── */
+    .tab-nav {
+      display: flex;
+      gap: 4px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .tab-btn {
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      border: none;
+      background: none;
+      color: var(--muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      border-radius: 8px 8px 0 0;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); background: var(--accent-light); }
+    .tab-btn.active { color: #1a1a1a; border-bottom-color: #1a1a1a; background: none; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── RAW DATA TABLE ── */
+    .q-block { margin-bottom: 28px; }
+    .q-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 10px; display:flex; align-items:center; gap:8px; }
+    .q-num { background:#1a1a1a; color:#ffd100; border-radius:6px; padding:2px 8px; font-size:11px; font-weight:800; flex-shrink:0; }
+    .q-table { width:100%; border-collapse:collapse; font-size:12px; }
+    .q-table th { text-align:left; color:var(--muted); font-weight:600; padding:6px 10px; border-bottom:1px solid var(--border); text-transform:uppercase; font-size:11px; letter-spacing:0.05em; }
+    .q-table td { padding:8px 10px; border-bottom:1px solid #f0f0ee; vertical-align:middle; }
+    .q-table tr:last-child td { border-bottom:none; }
+    .q-bar-cell { width:180px; }
+    .q-bar-bg { background:var(--border); border-radius:999px; height:8px; overflow:hidden; }
+    .q-bar-fill { height:100%; border-radius:999px; background:#1a1a1a; }
+    .q-pct { font-weight:700; color:var(--text); width:40px; text-align:right; }
+
+    /* ── QUOTES ── */
+    .quotes-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .quote-card {
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:var(--shadow);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .quote-mark { font-size:28px; color:#ffd100; line-height:1; font-family:Georgia,serif; }
+    .quote-text { font-size:13px; color:var(--text); line-height:1.6; flex:1; font-style:italic; }
+    .quote-tag { display:inline-flex; align-items:center; gap:6px; background:#f5f5f0; color:var(--muted); border-radius:6px; padding:4px 10px; font-size:11px; font-weight:600; }
+    .quote-tag.positive { background:#fffbe6; color:#1a1a1a; }
+    .quote-tag.negative { background:#fff1f1; color:#dc2626; }
+    .quote-tag.neutral { background:#f0f0ee; color:#3d3d3d; }
+    .quote-profile { font-size:11px; color:var(--muted); }
+
+    @media (max-width: 1100px) {
+      .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .grid-3 { grid-template-columns: repeat(2, 1fr); }
+      .grid-1-2, .grid-2-1 { grid-template-columns: 1fr; }
+      .quotes-grid { grid-template-columns: repeat(2,1fr); }
+    }
+    @media (max-width: 680px) {
+      body { padding: 16px; }
+      .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+      .quotes-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">Zé</div>
+      <div>
+        <div class="header-title">D0 (Same Day) — Pesquisa sobre entrega no mesmo dia</div>
+        <div class="header-sub">Chopp em Casa · Zé Delivery · Abril 2026</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="badge-partial">⚠ Dados Parciais</div>
+      <div class="date-box">
+        <strong>02 Abr 2026</strong>
+        Coleta em andamento
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB NAV -->
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="dashboard">📊 Dashboard</button>
+    <button class="tab-btn" data-tab="perguntas">📋 Perguntas & Respostas</button>
+  </div>
+
+  <!-- ABA 1: DASHBOARD -->
+  <div id="tab-dashboard" class="tab-panel active">
+
+  <!-- KPI CARDS -->
+  <div class="grid grid-4" style="margin-bottom: 16px;">
+    <div class="card">
+      <div class="kpi-icon orange">📋</div>
+      <div class="card-label">Respondentes válidos</div>
+      <div class="card-value accent">38</div>
+      <div class="card-sub">mín. 50 · ideal 100</div>
+      <div class="progress-wrap">
+        <div class="progress-track" style="position:relative;">
+          <div class="progress-fill" style="width: 38%;"></div>
+          <!-- marcador mín. 50 -->
+          <div style="position:absolute;top:-4px;left:50%;width:2px;height:18px;background:#1a1a1a;border-radius:2px;transform:translateX(-50%);"></div>
+        </div>
+        <div class="progress-labels" style="position:relative;">
+          <span>0</span>
+          <span style="position:absolute;left:50%;transform:translateX(-50%);color:#1a1a1a;font-weight:700;">50</span>
+          <span>100</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="kpi-icon green">✅</div>
+      <div class="card-label">Taxa de entrega no prazo</div>
+      <div class="card-value green">92%</div>
+      <div class="card-sub">35 de 38 pedidos entregues</div>
+      <div class="insight green">↑ Apenas 3 cancelamentos</div>
+    </div>
+
+    <div class="card">
+      <div class="kpi-icon orange">🔁</div>
+      <div class="card-label">Intent de reuso</div>
+      <div class="card-value accent">90%</div>
+      <div class="card-sub">certeza + provavelmente sim</div>
+      <div class="insight">68% "com certeza"</div>
+    </div>
+
+    <div class="card">
+      <div class="kpi-icon blue">⭐</div>
+      <div class="card-label">Expectativas atingidas</div>
+      <div class="card-value blue">100%</div>
+      <div class="card-sub">entre pedidos entregues</div>
+      <div class="insight blue">49% superou expectativas</div>
+    </div>
+  </div>
+
+  <!-- ROW 2: Progresso + Ocasião + Razão -->
+  <p class="section-label">Contexto do pedido</p>
+  <div class="grid grid-3" style="margin-bottom: 16px;">
+
+    <!-- Ocasião -->
+    <div class="card">
+      <div class="card-title">Ocasião de uso</div>
+      <div class="card-desc">Qual evento motivou o pedido?</div>
+      <div style="display:flex;align-items:center;gap:6px;margin-top:8px;margin-left:-24px;">
+        <div class="chart-container" style="height:180px;flex:0 0 170px;">
+          <canvas id="chartOcasiao"></canvas>
+        </div>
+        <div class="legend" style="flex-direction:column;gap:10px;margin-top:0;padding-right:16px;flex:1;">
+          <div class="legend-item"><div class="legend-dot" style="background:#ffd100;flex-shrink:0;"></div>Churrasco <strong style="margin-left:auto;padding-left:8px;">32%</strong></div>
+          <div class="legend-item"><div class="legend-dot" style="background:#ffe566;flex-shrink:0;"></div>Aniversário <strong style="margin-left:auto;padding-left:8px;">26%</strong></div>
+          <div class="legend-item"><div class="legend-dot" style="background:#3d3d3d;flex-shrink:0;"></div>Família <strong style="margin-left:auto;padding-left:8px;">21%</strong></div>
+          <div class="legend-item"><div class="legend-dot" style="background:#d4d4d8;flex-shrink:0;"></div>Outros <strong style="margin-left:auto;padding-left:8px;">21%</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Razão principal -->
+    <div class="card" style="grid-column: span 2;">
+      <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:4px;">
+        <div class="card-title" style="margin-bottom:0;">Razão principal para escolher o mesmo dia</div>
+        <div class="insight" style="margin-top:0;white-space:nowrap;flex-shrink:0;">61% urgência + conveniência</div>
+      </div>
+      <div class="card-desc">Por que não agendou com antecedência? Top 3 + outros agrupados</div>
+      <div class="chart-container" style="height: 210px;">
+        <canvas id="chartRazao"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 3: Entrega -->
+  <p class="section-label">Experiência de entrega</p>
+  <div class="grid" style="grid-template-columns: 1fr 1fr 1.6fr; margin-bottom: 16px;">
+
+    <!-- Antecedência -->
+    <div class="card">
+      <div class="card-title">Antecedência do pedido</div>
+      <div class="card-desc">Com quanto tempo antes?</div>
+      <div class="chart-container" style="height: 180px;">
+        <canvas id="chartAntecedencia"></canvas>
+      </div>
+    </div>
+
+    <!-- Prazo entrega -->
+    <div class="card">
+      <div class="card-title">Cumprimento do prazo</div>
+      <div class="card-desc">Chegou no horário indicado?</div>
+      <div class="chart-container" style="height: 180px;">
+        <canvas id="chartPrazo"></canvas>
+      </div>
+    </div>
+
+    <!-- Comunicação -->
+    <div class="card">
+      <div class="card-title">Comunicação durante a entrega</div>
+      <div class="card-desc">Status e horário (apenas entregues)</div>
+      <div class="chart-container" style="height: 180px;">
+        <canvas id="chartComunicacao"></canvas>
+      </div>
+      <div class="insight green" style="margin-top: 12px;">98% de satisfação com a comunicação</div>
+    </div>
+  </div>
+
+  <!-- ROW 4: Satisfação e retenção -->
+  <p class="section-label">Satisfação e retenção</p>
+  <div class="grid" style="grid-template-columns: 1.4fr 1fr 1fr; margin-bottom: 16px;">
+
+    <!-- Qualidade do chopp -->
+    <div class="card">
+      <div class="card-title">Qualidade do Chopp</div>
+      <div class="card-desc">Temperatura, pressão e sabor</div>
+      <div class="chart-container" style="height: 180px;">
+        <canvas id="chartQualidade"></canvas>
+      </div>
+    </div>
+
+    <!-- Voltaria a usar -->
+    <div class="card">
+      <div class="card-title">Voltaria a usar D0?</div>
+      <div class="card-desc">Intent de reuso do serviço</div>
+      <div class="chart-container" style="height: 200px;">
+        <canvas id="chartVoltaria"></canvas>
+      </div>
+    </div>
+
+    <!-- Preferência D0 vs agendado -->
+    <div class="card">
+      <div class="card-title">Preferência: D0 vs. Agendado</div>
+      <div class="card-desc">Como compara os dois modelos?</div>
+      <div class="chart-container" style="height: 200px;">
+        <canvas id="chartPreferencia"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 5: Melhorias -->
+  <p class="section-label">Melhorias desejadas</p>
+  <div class="grid" style="grid-template-columns: 1fr; margin-bottom: 16px;">
+    <div class="card">
+      <div class="card-title">O que melhoraria no serviço</div>
+      <div class="card-desc">Múltipla escolha — % dos respondentes que selecionaram cada opção</div>
+      <div class="chart-container" style="height: 240px;">
+        <canvas id="chartMelhorias"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 6: Perfil -->
+  <p class="section-label">Perfil dos respondentes</p>
+  <div class="grid" style="grid-template-columns:1fr;margin-bottom:16px;">
+    <div class="card">
+      <div class="card-title">Perfil dos respondentes</div>
+      <div class="card-desc">Faixa etária e frequência de uso do Zé</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:16px;">
+        <div>
+          <div class="card-label" style="margin-bottom:12px;">Faixa etária</div>
+          <div class="chart-container" style="height:240px;">
+            <canvas id="chartIdade"></canvas>
+          </div>
+        </div>
+        <div>
+          <div class="card-label" style="margin-bottom:12px;">Frequência no Zé Delivery</div>
+          <div class="chart-container" style="height:240px;">
+            <canvas id="chartFrequencia"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="text-align:center;font-size:11px;color:var(--muted);margin-top:32px;">
+    Pesquisa D0 Same Day · Zé Delivery / Ambev · Chopp Consumer Squad · Dados parciais — 02/04/2026
+  </div>
+
+  </div><!-- /tab-dashboard -->
+
+  <!-- ABA 2: PERGUNTAS & RESPOSTAS -->
+  <div id="tab-perguntas" class="tab-panel">
+    <div class="card" style="margin-bottom:16px;">
+      <p style="font-size:12px;color:var(--muted);margin-bottom:20px;">38 respondentes válidos (que realizaram pedido D0) · Dados parciais</p>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q1</span> Há quanto tempo você fez seu pedido de Chopp no mesmo dia?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Menos de 2 semanas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">11</td></tr>
+          <tr><td>De 2 semanas a 1 mês</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:16%;"></div></div></td><td class="q-pct">16%</td><td class="q-pct">6</td></tr>
+          <tr><td>De 1 a 3 meses</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:26%;"></div></div></td><td class="q-pct">26%</td><td class="q-pct">10</td></tr>
+          <tr><td>Há mais de 3 meses</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">11</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q2</span> Qual foi a principal razão para escolher a entrega no mesmo dia?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>O evento foi decidido em cima da hora</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:32%;"></div></div></td><td class="q-pct">32%</td><td class="q-pct">12</td></tr>
+          <tr><td>Vi a opção no app e achei conveniente</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">11</td></tr>
+          <tr><td>Sabia do evento mas esqueci de pedir antes</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:13%;"></div></div></td><td class="q-pct">13%</td><td class="q-pct">5</td></tr>
+          <tr><td>Cancelamento anterior — precisei de reposição rápida</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:5%;"></div></div></td><td class="q-pct">5%</td><td class="q-pct">2</td></tr>
+          <tr><td>Queria testar a opção de entrega rápida</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:3%;"></div></div></td><td class="q-pct">3%</td><td class="q-pct">1</td></tr>
+          <tr><td>Outro / não informado</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:18%;background:#d4d4d8;"></div></div></td><td class="q-pct">18%</td><td class="q-pct">7</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q3</span> Em qual situação você utilizou o Chopp neste pedido?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Churrasco com amigos</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:32%;"></div></div></td><td class="q-pct">32%</td><td class="q-pct">12</td></tr>
+          <tr><td>Aniversário ou comemoração especial</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:26%;"></div></div></td><td class="q-pct">26%</td><td class="q-pct">10</td></tr>
+          <tr><td>Reunião de família</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:21%;"></div></div></td><td class="q-pct">21%</td><td class="q-pct">8</td></tr>
+          <tr><td>Final de semana informal em casa</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:5%;"></div></div></td><td class="q-pct">5%</td><td class="q-pct">2</td></tr>
+          <tr><td>Outro (evento corporativo, cliente, loja)</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:16%;background:#d4d4d8;"></div></div></td><td class="q-pct">16%</td><td class="q-pct">6</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q4</span> Com quanto tempo de antecedência você fez o pedido?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Mais de 6 horas antes (mas ainda no mesmo dia)</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:63%;"></div></div></td><td class="q-pct">63%</td><td class="q-pct">24</td></tr>
+          <tr><td>De 4 a 6 horas antes</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:11%;"></div></div></td><td class="q-pct">11%</td><td class="q-pct">4</td></tr>
+          <tr><td>De 2 a 4 horas antes</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:26%;"></div></div></td><td class="q-pct">26%</td><td class="q-pct">10</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q5</span> Quantas pessoas participaram do evento?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Até 20 pessoas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:47%;"></div></div></td><td class="q-pct">47%</td><td class="q-pct">18</td></tr>
+          <tr><td>De 20 a 30 pessoas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:18%;"></div></div></td><td class="q-pct">18%</td><td class="q-pct">7</td></tr>
+          <tr><td>De 30 a 50 pessoas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:16%;"></div></div></td><td class="q-pct">16%</td><td class="q-pct">6</td></tr>
+          <tr><td>Mais de 50 pessoas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:18%;"></div></div></td><td class="q-pct">18%</td><td class="q-pct">7</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q6</span> O Chopp foi entregue dentro do prazo?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Sim, chegou antes do prazo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:42%;"></div></div></td><td class="q-pct">42%</td><td class="q-pct">16</td></tr>
+          <tr><td>Sim, chegou dentro do prazo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:50%;"></div></div></td><td class="q-pct">50%</td><td class="q-pct">19</td></tr>
+          <tr><td>Não foi entregue / pedido foi cancelado</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:8%;background:#f87171;"></div></div></td><td class="q-pct">8%</td><td class="q-pct">3</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q7</span> Como você avalia a comunicação sobre status e horário da entrega? <span style="font-size:11px;color:var(--muted);font-weight:400;">(apenas pedidos entregues, n=35)</span></div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Excelente — mantido informado em tempo real</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:69%;"></div></div></td><td class="q-pct">69%</td><td class="q-pct">24</td></tr>
+          <tr><td>Boa — atualizações suficientes</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;background:#ffd100;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">10</td></tr>
+          <tr><td>Regular — poderia ter sido melhor</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:3%;background:#ffe566;"></div></div></td><td class="q-pct">3%</td><td class="q-pct">1</td></tr>
+          <tr><td>Péssima — não soube de nada</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:0%;"></div></div></td><td class="q-pct">0%</td><td class="q-pct">0</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q8</span> Como você avalia a instalação da chopeira? <span style="font-size:11px;color:var(--muted);font-weight:400;">(apenas pedidos entregues, n=35)</span></div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Muito boa — profissional e rápida</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:77%;"></div></div></td><td class="q-pct">77%</td><td class="q-pct">27</td></tr>
+          <tr><td>Boa — sem problemas relevantes</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:14%;background:#ffd100;"></div></div></td><td class="q-pct">14%</td><td class="q-pct">5</td></tr>
+          <tr><td>Não foi instalada pelo entregador (eu mesmo montei)</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:9%;background:#d4d4d8;"></div></div></td><td class="q-pct">9%</td><td class="q-pct">3</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q9</span> O chopp estava em boa qualidade? <span style="font-size:11px;color:var(--muted);font-weight:400;">(apenas pedidos entregues, n=35)</span></div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Sim, estava perfeito</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:86%;"></div></div></td><td class="q-pct">86%</td><td class="q-pct">30</td></tr>
+          <tr><td>Bom, com algum ajuste pequeno</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:11%;background:#ffd100;"></div></div></td><td class="q-pct">11%</td><td class="q-pct">4</td></tr>
+          <tr><td>Razoável — abaixo do esperado, mas consumível</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:3%;background:#ffe566;"></div></div></td><td class="q-pct">3%</td><td class="q-pct">1</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q10</span> A experiência correspondeu às suas expectativas? <span style="font-size:11px;color:var(--muted);font-weight:400;">(apenas pedidos entregues, n=35)</span></div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Superou minhas expectativas</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:49%;"></div></div></td><td class="q-pct">49%</td><td class="q-pct">17</td></tr>
+          <tr><td>Estava exatamente dentro do que esperava</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:51%;background:#ffd100;"></div></div></td><td class="q-pct">51%</td><td class="q-pct">18</td></tr>
+          <tr><td>Estava bem abaixo do que esperava</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:0%;"></div></div></td><td class="q-pct">0%</td><td class="q-pct">0</td></tr>
+          <tr><td>Foi completamente diferente (para pior)</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:0%;"></div></div></td><td class="q-pct">0%</td><td class="q-pct">0</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q11</span> Você voltaria a usar a entrega no mesmo dia?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Sim, com certeza — foi ótimo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:68%;"></div></div></td><td class="q-pct">68%</td><td class="q-pct">26</td></tr>
+          <tr><td>Provavelmente sim</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:21%;background:#ffd100;"></div></div></td><td class="q-pct">21%</td><td class="q-pct">8</td></tr>
+          <tr><td>Talvez — dependeria da situação</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:5%;background:#ffe566;"></div></div></td><td class="q-pct">5%</td><td class="q-pct">2</td></tr>
+          <tr><td>Provavelmente não</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:5%;background:#f87171;"></div></div></td><td class="q-pct">5%</td><td class="q-pct">2</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q12</span> Comparando D0 com o agendamento padrão, qual você prefere?</div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Prefiro muito o mesmo dia — é mais conveniente</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:34%;"></div></div></td><td class="q-pct">34%</td><td class="q-pct">13</td></tr>
+          <tr><td>Prefiro o mesmo dia, mas usaria o padrão com tempo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:26%;"></div></div></td><td class="q-pct">26%</td><td class="q-pct">10</td></tr>
+          <tr><td>Uso os dois igualmente conforme a situação</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;background:#ffd100;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">11</td></tr>
+          <tr><td>Prefiro a agendada — tenho mais controle</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:3%;background:#d4d4d8;"></div></div></td><td class="q-pct">3%</td><td class="q-pct">1</td></tr>
+          <tr><td>Não tenho preferência definida</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:5%;background:#d4d4d8;"></div></div></td><td class="q-pct">5%</td><td class="q-pct">2</td></tr>
+          <tr><td>Missing / cancelado</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:3%;background:#e4e4e7;"></div></div></td><td class="q-pct">3%</td><td class="q-pct">1</td></tr>
+        </table>
+      </div>
+
+      <div class="q-block">
+        <div class="q-title"><span class="q-num">Q13</span> O que melhoraria no serviço? <span style="font-size:11px;color:var(--muted);font-weight:400;">(múltipla escolha)</span></div>
+        <table class="q-table">
+          <tr><th>Resposta</th><th class="q-bar-cell"></th><th class="q-pct">%</th><th class="q-pct">n</th></tr>
+          <tr><td>Confirmação de entrega mais clara logo após o pedido</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">~10</td></tr>
+          <tr><td>Preço mais acessível para entrega rápida</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:29%;"></div></div></td><td class="q-pct">29%</td><td class="q-pct">~10</td></tr>
+          <tr><td>Rastreamento em tempo real da entrega no app</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:23%;background:#ffd100;"></div></div></td><td class="q-pct">23%</td><td class="q-pct">~8</td></tr>
+          <tr><td>Mais janelas de horário disponíveis</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:23%;background:#ffd100;"></div></div></td><td class="q-pct">23%</td><td class="q-pct">~8</td></tr>
+          <tr><td>Nada — o serviço já está no nível certo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:23%;background:#ffd100;"></div></div></td><td class="q-pct">23%</td><td class="q-pct">~8</td></tr>
+          <tr><td>Garantia de cumprimento do prazo</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:17%;background:#d4d4d8;"></div></div></td><td class="q-pct">17%</td><td class="q-pct">~6</td></tr>
+          <tr><td>Melhor comunicação sobre a chegada do entregador</td><td><div class="q-bar-bg"><div class="q-bar-fill" style="width:11%;background:#d4d4d8;"></div></div></td><td class="q-pct">11%</td><td class="q-pct">~4</td></tr>
+        </table>
+      </div>
+    </div>
+  </div><!-- /tab-perguntas -->
+
+
+  <script>
+    const ACCENT  = '#ffd100';  // Zé Yellow
+    const ACCENT2 = '#f5c200';  // Yellow darker
+    const ACCENT3 = '#ffe566';  // Yellow lighter
+    const ACCENT4 = '#fff5b3';  // Yellow pastel
+    const BLACK   = '#1a1a1a';  // Zé Black
+    const DARK    = '#3d3d3d';  // Dark gray
+    const GREEN   = '#22c55e';
+    const GRAY    = '#d4d4d8';
+    const MUTED   = '#6b6b6b';
+
+    document.addEventListener('DOMContentLoaded', function() {
+    if (typeof Chart === 'undefined') {
+      document.querySelectorAll('.chart-container').forEach(el => {
+        el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#6b6b6b;font-size:12px;">Gráfico indisponível — Chart.js não carregou</div>';
+      });
+      return;
+    }
+
+    Chart.register(ChartDataLabels);
+    Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+    Chart.defaults.color = MUTED;
+
+    const doughnutLabels = {
+      plugins: {
+        datalabels: {
+          color: ctx => {
+            const bg = ctx.dataset.backgroundColor[ctx.dataIndex];
+            // texto preto sobre amarelo, branco sobre escuro
+            return (bg === '#ffd100' || bg === '#ffe566' || bg === '#fff5b3' || bg === ACCENT3 || bg === ACCENT4 || bg === GRAY) ? '#1a1a1a' : '#ffffff';
+          },
+          font: { weight: 'bold', size: 12 },
+          formatter: val => val > 4 ? val + '%' : '',  // esconde fatias muito pequenas
+        },
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed}%` } }
+      }
+    };
+
+    // ── Ocasião (donut) ──
+    new Chart(document.getElementById('chartOcasiao'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Churrasco c/ amigos', 'Aniversário / celebração', 'Reunião de família', 'Outros'],
+        datasets: [{
+          data: [32, 26, 21, 21],
+          backgroundColor: [ACCENT, ACCENT3, BLACK, GRAY],
+          borderWidth: 0,
+          hoverOffset: 6
+        }]
+      },
+      options: { cutout: '68%', maintainAspectRatio: false, ...doughnutLabels }
+    });
+
+    // ── Razão principal (bar vertical, top 3 + outros) ──
+    new Chart(document.getElementById('chartRazao'), {
+      type: 'bar',
+      data: {
+        labels: ['Evento em\ncima da hora', 'Vi a opção\nno app', 'Sabia mas\nesqueci', 'Outros'],
+        datasets: [{
+          data: [32, 29, 13, 26],
+          backgroundColor: [BLACK, ACCENT, ACCENT3, GRAY],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: ctx => ctx.dataset.backgroundColor[ctx.dataIndex] === ACCENT ? '#1a1a1a' : '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 40
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Antecedência (bar vertical) ──
+    new Chart(document.getElementById('chartAntecedencia'), {
+      type: 'bar',
+      data: {
+        labels: ['2–4h antes', '4–6h antes', '+6h antes'],
+        datasets: [{
+          data: [26, 11, 63],
+          backgroundColor: [ACCENT4, ACCENT3, ACCENT],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 75
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Qualidade do Chopp (bar vertical) ──
+    new Chart(document.getElementById('chartQualidade'), {
+      type: 'bar',
+      data: {
+        labels: ['Perfeito', 'Bom c/ ajuste', 'Razoável'],
+        datasets: [{
+          data: [86, 11, 3],
+          backgroundColor: [BLACK, ACCENT, ACCENT3],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 }, maxRotation: 0, minRotation: 0 } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 105
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Comunicação (bar vertical) ──
+    new Chart(document.getElementById('chartComunicacao'), {
+      type: 'bar',
+      data: {
+        labels: ['Excelente', 'Boa', 'Regular ou Péssima'],
+        datasets: [{
+          data: [69, 29, 3],
+          backgroundColor: [BLACK, ACCENT, GRAY],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 }, maxRotation: 0, minRotation: 0 } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 85
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Prazo entrega (2 barras) ──
+    new Chart(document.getElementById('chartPrazo'), {
+      type: 'bar',
+      data: {
+        labels: ['Entregue no prazo', 'Não entregue'],
+        datasets: [{
+          data: [92, 8],
+          backgroundColor: [BLACK, GRAY],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 110
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Voltaria (bar vertical) ──
+    new Chart(document.getElementById('chartVoltaria'), {
+      type: 'bar',
+      data: {
+        labels: ['Sim', 'Talvez', 'Não'],
+        datasets: [{
+          data: [90, 5, 5],
+          backgroundColor: [BLACK, ACCENT, GRAY],
+          borderRadius: 10,
+          borderSkipped: false,
+          minBarLength: 12
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 }, maxRotation: 0, minRotation: 0 } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 100
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Preferência D0 vs Agendado (bar vertical) ──
+    new Chart(document.getElementById('chartPreferencia'), {
+      type: 'bar',
+      data: {
+        labels: ['D0', 'Ambos', 'Agendado', 'Outros'],
+        datasets: [{
+          data: [60, 29, 3, 8],
+          backgroundColor: [BLACK, ACCENT, ACCENT3, GRAY],
+          borderRadius: 10,
+          borderSkipped: false,
+          minBarLength: 12
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 }, maxRotation: 0, minRotation: 0 } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 75
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Melhorias (bar vertical, top 4 + outros) ──
+    new Chart(document.getElementById('chartMelhorias'), {
+      type: 'bar',
+      data: {
+        labels: ['Confirmação\npós-pedido', 'Preço\nacessível', 'Rastreamento\nno app', 'Mais janelas\nde horário', 'Outros'],
+        datasets: [{
+          data: [29, 29, 23, 23, 17],
+          backgroundColor: [BLACK, BLACK, ACCENT, ACCENT, GRAY],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end',
+            align: 'end',
+            color: '#1a1a1a',
+            font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 11 }, maxRotation: 0, minRotation: 0 } },
+          y: {
+            grid: { color: '#f0f0ee' },
+            ticks: { callback: v => v + '%', font: { size: 11 } },
+            max: 40
+          }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Faixa etária (bar vertical) ──
+    new Chart(document.getElementById('chartIdade'), {
+      type: 'bar',
+      data: {
+        labels: ['18–24', '25–34', '35–44', '45–54', '55+'],
+        datasets: [{
+          data: [8, 18, 21, 26, 26],
+          backgroundColor: [ACCENT4, ACCENT3, ACCENT, ACCENT2, BLACK],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end', align: 'end',
+            color: '#1a1a1a', font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+          y: { grid: { color: '#f0f0ee' }, ticks: { callback: v => v + '%' }, max: 35 }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+
+    // ── Frequência Zé Delivery (bar vertical) ──
+    new Chart(document.getElementById('chartFrequencia'), {
+      type: 'bar',
+      data: {
+        labels: ['1ª vez', '<1x/mês', '1x/mês', '2–3x/mês', 'Toda semana+'],
+        datasets: [{
+          data: [13, 24, 21, 21, 21],
+          backgroundColor: [ACCENT4, ACCENT3, ACCENT, DARK, BLACK],
+          borderRadius: 10,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false },
+          datalabels: {
+            anchor: 'end', align: 'end',
+            color: '#1a1a1a', font: { weight: 'bold', size: 13 },
+            formatter: val => val + '%'
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 }, maxRotation: 0, minRotation: 0 } },
+          y: { grid: { color: '#f0f0ee' }, ticks: { callback: v => v + '%' }, max: 35 }
+        },
+        maintainAspectRatio: false,
+        layout: { padding: { top: 24 } }
+      }
+    });
+    // ── Tab switching ──
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+    }); // end DOMContentLoaded
+  </script>
+</body>
+</html>

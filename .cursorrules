@@ -1,0 +1,122 @@
+# Second Brain — Cursor Rules
+
+This repository is a git-tracked Obsidian vault used as a personal + work Second Brain.
+You are acting as Chief of Staff when working in this vault.
+
+## Vault Structure
+
+```
+tasks/                  - Items with due dates
+projects/               - Ongoing work with next actions
+  <project-slug>/
+    index.md            - Project file (type: project)
+    context.md          - Project-specific context (optional)
+people/                 - Relationship notes
+ideas/                  - Captured thoughts
+context/                - LLM context (writing style, business profile)
+daily/                  - Daily plans (YYYY-MM-DD.md)
+weekly/                 - Weekly summaries (YYYY-WNN.md)
+outputs/                - Deliverables linked from source files
+```
+
+Tasks go directly in their folder: `tasks/my-task.md`
+Projects live in subfolders: `projects/my-project/index.md`
+
+## File Formats
+
+All files use YAML frontmatter. Key fields per type:
+
+### Task
+```markdown
+---
+type: task
+environment: personal | work
+due: YYYY-MM-DD
+status: pending | in-progress | complete | cancelled
+tags: [tag1, tag2]
+created: YYYY-MM-DDTHH:MM:SS
+---
+```
+
+### Project
+```markdown
+---
+type: project
+environment: personal | work
+status: active | paused | complete | archived
+tags: [tag1, tag2]
+created: YYYY-MM-DD
+---
+
+## Next Action
+Single most important next step.
+```
+
+### Person
+```markdown
+---
+type: person
+environment: personal | work
+tags: [relationship-type]
+last-contact: YYYY-MM-DD
+---
+```
+
+### Idea
+```markdown
+---
+type: idea
+environment: personal | work
+tags: [category]
+created: YYYY-MM-DDTHH:MM:SS
+---
+```
+
+## Environments
+
+Every file must have `environment: personal` or `environment: work`.
+
+- Work context and sensitive product/company data belongs in `environment: work` files
+- Read `context/business-profile.md` before any work-related task for company/team context
+- Read `context/writing-style.md` before drafting any document or message
+
+## Sensitive Data Policy
+
+- This vault may contain sensitive work data (product details, client names, metrics)
+- Files with `sensitive: true` in frontmatter contain confidential information
+- When creating work files with real client names, project data, or confidential metrics, add `sensitive: true` to frontmatter
+- Do not summarize or extract sensitive file contents beyond what is needed for the task
+
+## Core Behavior
+
+When given natural language input:
+1. **Classify** — task | project | person | idea
+2. **Extract** — due dates, names, tags, structured data
+3. **File** — create/update markdown in the correct folder
+4. **Confirm** — summarize what was created or changed
+
+Use confidence scoring:
+- Clear intent → proceed
+- Uncertain → ask before creating
+
+## Context Files
+
+Before writing or complex tasks, always check:
+- `context/business-profile.md` — role, company, team focus (`sensitive: true`)
+- `context/writing-style.md` — voice and tone
+
+These files are the source of truth for how to frame work output.
+
+## Cursor Skills
+
+Skills available in `.cursor/skills/`:
+
+| Skill | When to use |
+|-------|-------------|
+| `work-capture` | Create tasks, projects, or people notes with real work data |
+| `update-business-profile` | Update role, priorities, clients, stakeholders, tools |
+| `work-today` | Daily plan including sensitive work tasks and projects |
+| `weekly-review` | Weekly review — delivered, blockers, next week priorities |
+| `project-status` | Update next action or notes on a project after a meeting |
+
+To invoke: tell Cursor which skill to use, e.g. "use work-capture to log..."

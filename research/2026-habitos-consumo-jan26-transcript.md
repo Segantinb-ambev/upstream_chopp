@@ -1,0 +1,2504 @@
+---
+type: research
+environment: work
+sensitive: true
+date: 2026-01
+method: survey quantitativo (Typeform)
+participants: 967 completos, 0 parciais
+status: pontual
+source: _temp/responses-CAV8Nwty-01KN4K7G1AFZ18MKHBAXDY188M-U6Y62JD7TN2K0M08MB7984UF.csv
+---
+
+# Hábitos de Consumo de Chopp — Typeform | Jan/2026
+
+> Survey sobre hábitos de consumo de Chopp Brahma e awareness do serviço no Zé Delivery. Público: consumidores de bebidas +18 anos.
+> N = 967 respostas completas (0 parciais). Arquivo: `_temp/responses-CAV8Nwty-01KN4K7G1AFZ18MKHBAXDY188M-U6Y62JD7TN2K0M08MB7984UF.csv`
+
+---
+
+## Perguntas e Distribuição de Respostas
+
+### Com quem estamos falando?
+*N = 912*
+
+**Respostas abertas (todas):**
+
+- Emele vitória
+- Almir Salvador
+- Sandra
+- Cleber Abreu
+- Julmar Fernandes Conte
+- Eustáquio
+- Joney Roberto
+- Danyllo Mendes
+- Karlen
+- Junior
+- Rodrigo
+- Eliane
+- Rodrigo
+- Simone
+- Rosane
+- Miquéias
+- Márcia aparecida da Silva
+- Olindo neto
+- Paulo Mauricio da Silva Gomes
+- Roberto
+- Guilherme
+- Edison
+- Marcus
+- Gustavo
+- Aureo
+- Vanessa
+- Kelly
+- Juslene Souza
+- Marcelo bezerra
+- Helen
+- Flávio
+- Jackson Bruno
+- Sylvia
+- Emerson
+- Daniel
+- Wellington
+- Alan
+- Marcelo
+- Cassiana
+- Dirce
+- Marcelo
+- Carlos Cesar
+- Elisiane
+- Marcos Vinicius Rodrigues Brasil
+- Edson
+- Leomarcos Alves
+- Viviany
+- Eufrazio
+- Gabriel
+- Thalita Evelyn
+- Geraldo B Silva
+- Ed
+- Anne Pricilla
+- Kleber
+- Milene
+- Luiz Henrique Soares
+- Elaine
+- Diêgo
+- Lucas
+- Ana
+- Jeferson
+- Cleyton Nascimento
+- Otávio Luiz
+- José Ronaldo elessondres pinho
+- Loana
+- Nilton
+- Hebert
+- Elison Horta
+- Juan Costa
+- Wellinton
+- Rubiane
+- Francisco Barcellos
+- Daian
+- Natany
+- Cristina
+- Donato de Paula
+- Gleice
+- Carlos
+- Albano
+- Paulo Rodrigo
+- Helena
+- Patrícia Ribeiro
+- Mirian
+- Fernando
+- Diemes Freitas
+- João Francisco
+- José Carlos Fernandes
+- Joelma
+- Alzenir
+- Celia Beatriz Moreira
+- Leandro da Silva Amaral
+- Eronaldo
+- Renata Sorania
+- Claudelina Raquel Denis
+- Gilnei
+- Paulo Ricardo
+- João Carlos
+- Dafny
+- Anaise Rodrigues Soares
+- Neia Almeida
+- Luis
+- Luis  Antônio do Nascimento
+- Cristine
+- Rosa
+- Valdemir Ferreira
+- Andreia Ferreira Nunes
+- Daniel
+- Gustavo Carneiro
+- Maria Betânia Tomé Vieira
+- Graziele
+- Ademir
+- Marcos Wellington
+- Rosimar
+- Marco Antônio
+- Vito Augusto Couto
+- Quênia
+- Kyara
+- Marcelo Rodrigues dos Santos
+- Kunti
+- Ralph
+- Rodrigo
+- Marcio
+- Ligea
+- Alcione
+- Antonio Carlos
+- Agilson santos
+- Maria helena
+- Ana Paula Jaskulski
+- AriovaldoMarcosfanti
+- Diego
+- Aline
+- Cleber
+- Cecília
+- Nagila
+- Douglas Nunes
+- Patrícia
+- Walterson
+- Luiz Cunha
+- Jailson
+- Daniel Sergio Torres
+- Ana Paula
+- Josimar Firmino de Asevedo
+- Rodolfo
+- Vinicius
+- Deivid de carvalho Rufino
+- Simone
+- Francisco
+- Belmiro
+- Fabi
+- Tiago
+- Roberto Delanos filho
+- Fábio
+- Pablo Soares
+- Edmar Andrade
+- Eveline
+- Maria Cristina de Almeida Soares
+- Glimaria
+- José. leal. de. jesus
+- Sonia Maria de Oliveira
+- Cler
+- Raiara
+- Redney
+- Ana
+- Luiz Ferraz
+- Raphael
+- Karine
+- Losangela
+- Douglas
+- Pedro
+- Marcio
+- Marcio Tomaz
+- Silvio
+- Raphael Bittencourt
+- Mary
+- Zé Roberto
+- Anderson Freire Moura de Melo
+- marco tulio
+- Wederson
+- Wendel
+- Rafael Sousa da Silva
+- Mary
+- Marlon
+- Angelo
+- Luís Marcio Pires Alvarenga
+- Filipe
+- Leandro Diego Batista Luz
+- ANA MARIA
+- Élcio Teodoro de Lima
+- Rogi
+- Monica
+- Claudomiro
+- Dário Augusto Lyra Ferreira
+- Danielle
+- Amanda
+- Maria
+- Julio
+- Erica
+- Marcos Henrique
+- Paula
+- Rômulo Reis
+- Domenico
+- Francieli da Silva
+- Gitana
+- Marli
+- Gustavo Pereira
+- André Soares Altoé
+- Jessica
+- Rafael
+- Maria das Graças
+- Matheus Leal
+- Wedsney
+- Luciana
+- Francisco
+- Willian
+- Tiago
+- Ana
+- Morais
+- Adail
+- Robson
+- Charles
+- Karinne
+- Adilson
+- Mauricio
+- Fernando
+- Luciano
+- Edinaldo
+- Thiago Augusto Queiroz de Souza
+- Márcio Dias Alves
+- Juliana
+- Cecília
+- Patricia
+- Fabio junior
+- Kelly
+- Soraya Vanelly Reis
+- Jhury
+- Régis
+- Jonas Ribeiro Zanardi
+- Bruno Magalhães
+- Flávio Ruben
+- Roberto
+- Leandra
+- Enio
+- Sônia
+- Maurício Navarro
+- Liz
+- Everson
+- João
+- Caio Costa
+- Alexandre
+- Igor
+- Priscilla
+- Geysy
+- Deize Pereira
+- Elton
+- Mirthes
+- Cleia Noberto
+- Giselle
+- Lip
+- Bruna Fernanda
+- Almir Gomes
+- Erico
+- Ana
+- Derik limeira
+- fernando
+- Claiton
+- Marcos de Andrade Pinto
+- Maurício
+- Carlos Kelson
+- Mariele
+- Pepe Chiaretto
+- Murilo
+- Jhony de Sá
+- Monica
+- Vilmar SBarbosa
+- Felipe
+- Alexsander Viana da Silva
+- Viviane
+- Ramon
+- Thiago Calisz Simão
+- Reinaldo
+- Laura Ramalho
+- Heraldo
+- Talita
+- Marcelo
+- Valder
+- José Otávio Duarte
+- Deivisson lourenço
+- Sérgio Antonio Rego de Lima
+- Larissa Mayara Viana Aguiar
+- Ricardo
+- Jusandro
+- Gilberto
+- Fátima Oliveira
+- Daiane
+- Ana
+- Felipe
+- Adriano
+- Arley Pereira de Freitas
+- Elaine
+- Samuray Souza
+- Marcelo Mendes
+- MAIARA de Lara Costa Ferreira
+- Cris
+- Neto
+- Marcelo Soares de Sá
+- Tiago
+- Paulo
+- Ricardo Meireles Pacheco
+- Andre
+- Nelson
+- Giselda
+- Elton
+- Vinicius
+- Daniel
+- Arthur
+- Ana Ramos
+- Guilherme
+- Breno
+- Evaniel
+- Bruno
+- ROSEMARY DE BRITTO SOUZA
+- Ana Mirian
+- Andryele
+- Ailton dos Santos costa
+- Sandro
+- Johnny
+- Jane
+- Bruno
+- Sidimar
+- Marcelina
+- Giovanni Rodrigues dos Santos
+- Augusto
+- Gabrielly
+- Leandro
+- Mathias
+- Elson Lemos
+- Keilla
+- Gabriel
+- Gabriella
+- Marcelo Moraes Corrêa
+- Elaine
+- Fernando
+- Tatiana Ranconi Souza Gomes
+- Alex
+- Gustavo
+- Jose
+- Fábio Aguiar
+- Pollyana
+- Edivam silva
+- Fabiano Bezerra
+- Flávia
+- Wesley
+- Geraldo
+- Wender
+- Abelino
+- Nicolas
+- Deividi Rodrigues Dutra
+- Clayton
+- Italo
+- Cesar Fantini
+- Russo
+- Levi
+- Isabelly
+- Fabiana
+- Adryan
+- Rodrigo
+- Asuary Gomes de Carvalho filho
+- Marina
+- Phelippe
+- Priscila
+- Cutty silva
+- Diego
+- Renato Mendes
+- Débora Christina
+- Antônio Cesar
+- Eduardo
+- Miguel Aidar Junior
+- Anderson da Silva
+- Franklin
+- Rosilene
+- Lucas
+- Luís
+- Ednelson
+- Patrícia Pereira da Silva
+- Marcia
+- Washington
+- Samir
+- Raynne Silva Santana
+- Luciana
+- Alexander Magalhães
+- CARLOS
+- Claudia
+- Cleverson
+- Luis Eduardo
+- Marlene
+- Wagner Andrade
+- layla
+- Sonia
+- Israelita
+- Marcello
+- Lucas
+- Júlia Carlos
+- Leandro
+- Alexandre Santos
+- Kleber
+- Luciano Boaes
+- José Carlos
+- Diogo
+- Flávia
+- Alana
+- Hilca Vilarim Alves da Silva
+- Fabio
+- Luiz Claudio
+- Edson
+- Milton Ramos Fernandes Filho
+- Ricardo
+- Raquel
+- Waldir José novaes
+- Otavio
+- Freitas
+- Ronnye
+- Elisangela
+- Rodrigo Mesquita
+- Raíssa
+- Wellington
+- Serli harps
+- Renato
+- Silvete
+- João BOSCO Ferreira da mota
+- Marisa
+- João
+- Daniela Braga
+- Andressa viana soares
+- Patrícia
+- Paulo Cesar
+- BIANCA
+- Fernando Coelho
+- Sol
+- Carlos
+- Rildo
+- Ermison Luis Alves
+- Leandro
+- Haley de Barros Junior
+- Deyse
+- J c
+- Vitor
+- Scheila
+- Joice
+- Wanderson
+- Jordany
+- Petronio
+- Josiane
+- Cristiano de Araújo Souza
+- Sandra Pontes
+- Rick
+- Murillo
+- Edouard El Khouri
+- Patrícia
+- Rodrigo Turlon
+- Gilmar
+- Tati
+- Ciro Luciano da Silva
+- Alessandro
+- João Auri Pacheco Rocha
+- Newton
+- Maciel
+- Bernardo
+- Helenice
+- Juliane alba
+- Lorena Oliveira Santos
+- Marco Antônio Cortapasso
+- Anderson Pilecco
+- Eduarda
+- Denys Junqueira Junior
+- Eduardo
+- Izabela
+- Marcos Felipe Moura Galdino
+- Luis Carlos morais
+- Dilvan
+- Cesar Henrique de Melo
+- Wender
+- Janaina Parreira
+- Anilton
+- Elisete
+- Elias
+- Junior Federici
+- Paloma
+- André
+- Adriano Rodrigues sargento
+- Renata
+- Luiz
+- Leonardo
+- Melvyn
+- Tamires
+- Rubens
+- Denis
+- Edgar
+- Leiliane
+- Josiane
+- Julia Passos
+- Cristian
+- Lucianna
+- Bianca
+- José Almeida
+- Giseli
+- João Paulo
+- Luiz Henrique Moreira
+- Claudecir
+- Arlene
+- Thatiane aparecida
+- Jociano Ferreira
+- Cristiane
+- Alan freschi
+- Junior
+- Fernando
+- Felipe santos
+- Cilena
+- Maria Luíza
+- Diane jaques
+- Lisandra Invernizzi
+- Matheus
+- Wesley
+- Rodrigo
+- Daiana
+- Alessandro
+- Rafael
+- Kely
+- André
+- Mercia
+- Flávio
+- Dayane
+- Renata
+- A
+- Flavia Thaís
+- Guilherme Henrique
+- Simone
+- Júlio
+- Edvaldo
+- Lidiane
+- Reginaldo
+- Marcos
+- Douglas
+- Francieli
+- Kevin
+- Sabrina
+- Adilson
+- Giulia
+- Clark xavier santos
+- Júlio
+- Caio
+- Andressa
+- Erivaldo
+- Antonio
+- Charles Gomes
+- Jairo benvindo martins
+- Viviane Rodrigues
+- Rodolfo
+- Bolivar Cortes Correia Junior
+- Viviane
+- Sonia
+- Sergio
+- Hugo
+- Paulo César
+- Sheila
+- Viviane
+- Danilo
+- Jonathan
+- Vladimir
+- Vanessa
+- Amanda
+- Douglas
+- Márcio
+- Bruno Martin
+- Viviane
+- Jaqueline
+- Bruna
+- Viviane
+- Sandra godoy
+- Jhonatan
+- Anderson
+- Roberto
+- Karol
+- Alexandre
+- Celso Manoel de Almeida
+- Rafael
+- Cristiano
+- Luiz
+- Victor Renan Ferreira
+- Monica Santos Herculano
+- caique
+- Lucas
+- Mais Caro
+- Rafael
+- Ricardo
+- Gleice Gouveia
+- Cristyan Gonçalves Rodrigues
+- Marco Aurélio
+- Andrea
+- André Souza
+- Rafael
+- Elivelton Barone
+- Daniel
+- Renato
+- Alessandro Diego Liberi
+- Diego Santos Marcial Santana
+- Felipe vargas
+- Patrícia
+- Pedro
+- José Carlos
+- Jerfeson
+- Marcos Diego
+- Evergton Rodrigues
+- Rubens
+- Patrícia
+- Robson
+- Lucas diogo
+- Luiz
+- Victor
+- Marcelo
+- Rui Tomczyk
+- Joyce
+- Eduardo
+- Fernando Ramirez
+- Neandro
+- Ariane
+- Christian Ávila
+- Alex Marques
+- Vanessa Lima
+- Danilo
+- Lucas
+- Matheus
+- Camila
+- João Alfredo Madeira Peres
+- Josileide Roriz
+- Andreza
+- Fernando
+- Viviane Abanca
+- Juliana
+- Joyce
+- Armando
+- Henrique
+- Alessandro
+- Ana Patrícia de Sousa Machado
+- Rodolfo
+- Fátima
+- Francisco Mauro De Sousa
+- Kamyllie
+- Sandro Pessanha
+- Sandra
+- Marco André
+- Pedro
+- Marcio
+- Larissa
+- Suzana
+- Suelen
+- Ana
+- Marco
+- Elder Lucas
+- Heloísa
+- Marcus
+- Rodolfo
+- João Pedro
+- Joyce
+- Amanda
+- Wilmári
+- José Sátiro dos Santos Bisneto
+- Isabela Carvalho figueira
+- Thami
+- Robledo
+- Danilo
+- Ana oleias
+- Raquel
+- Vinicius
+- elen
+- Caio Marques Barbosa
+- Joyce
+- Rafaela
+- jacksom
+- Flávia
+- Roberto
+- ESTHER RIBEIRO
+- Henrique
+- Karine
+- Déborah
+- Iana
+- Joanny
+- Gabriela
+- Alexandre Santos de Albuquerque
+- SIDNEY
+- Dilziane
+- Vinicius
+- Elany
+- Israel
+- Henrique Reis
+- Andreia Solange Lino
+- Amarildo
+- Bianca
+- Lucas
+- Michael
+- Fabrício
+- Manfredini
+- Lz
+- Carla
+- Fabio
+- Eliziane
+- Rodrigo
+- Bruna
+- Daniele
+- Dielis
+- Carlos
+- Anderson
+- José Maria Costa Guedes
+- Lucas
+- Tereza Pryscila
+- Ana Carolina
+- Matheus Oliveira
+- Diego
+- Diego
+- Marcus Vinicius
+- André
+- Rafael Buthi
+- Diego
+- Ricardo Antônio Do Nascimento
+- Eliane
+- Eduardo
+- Aline Elisa
+- Clodoaldo
+- Leandro
+- Mariana
+- Marcio
+- Carlos Augusto
+- Valdir
+- MARCOS DANIEL SALES PORTELA
+- Tamires
+- Mateus
+- Souza
+- Felipe Alves
+- Luana Nascimento
+- Ricardo
+- Jean
+- Claudia
+- Paulo Pires
+- Guilherme
+- Guilherme Delfino
+- Lasli
+- Jean
+- Danyelle
+- Adna
+- João Mateus
+- Leandro rocha batista
+- Laerci Pereira Filho
+- Jorge diego
+- Kleberson
+- Renesilva
+- Emilene
+- Jeferson
+- Michelle Resende
+- Adrielle
+- Eduardo
+- Luis Claudio
+- Melissa
+- Rogério
+- Fernanda
+- Leandro
+- Felipe
+- Murilo
+- David Jones Martins Motta
+- Zé delivery
+- Jo Fernandes
+- Gabriela
+- Alessandra
+- Rogério
+- Maria Eduarda
+- Henrique Farias
+- Marcelo
+- Paulo Roberto Telles de Souza
+- Allan
+- Jefferson Gomes
+- pedro
+- Felipe
+- Roberto Ferreira
+- Renan
+- Rogerio
+- taila
+- Luana allycia
+- Gabriel
+- Marcela
+- Rosane Barreto
+- Glauciene
+- Ledir de Oliveira
+- Augusto
+- Cleber Galo
+- Ana Sena
+- jackson
+- YURI CRU Muniz
+- Manoel
+- Michael
+- Yury
+- Jean
+- Daniel
+- Pedro
+- Dalton
+- Debora
+- Regiane
+- Adam
+- José Júnior
+- Paulo
+- Mattheus
+- Gustavo
+- Everton Cerqueira Oliveira
+- Noemia
+- Kelliz schuenck banjar
+- Otávio
+- Rayana
+- Monique
+- Julia
+- Carol
+- Pedro Vicente
+- Gabriele
+- Claudio Jorge
+- Angelita de Cassia da Silva
+- Abílio Silva
+- Larissa
+- Rayzsa
+- Daniele rodrigues brandaõ
+- Alberto
+- Rafael
+- Flavia
+- Fabiana
+- Alba Valeria
+- Thais
+- Marília Brandão
+- Cleisson
+- Celson
+- Fernanda Braga
+- Rodrigo
+- Carla
+- Carline
+- Neidiane
+- Gabriel
+- Lucas
+- Vanessa Teixeira
+- Márcia Abos
+- Mariane
+- Vinicius
+- Larice
+- Otávio
+- Fabrício
+- Talita sousa
+- Luana
+- Ana Carolina
+- Cristiane
+- Teste
+- Alexandre
+- Eduardo
+- Paulo Cesar tardivo
+- Lauane Laura
+- Wilson
+- Adriana
+- Didi Lopes
+- Ana Paz
+- Arianne
+- Fernanda
+- Gustavo
+- Thairini da Rosa Rodrigues
+- Mário Gomes
+- Néia Ribeiro
+- Adriana
+- Alex
+- Markim
+- Kellen
+- Wlademir Bazante
+- Anthony
+- Atila
+- Vania carneiro
+- Adriane
+- Soayan Silveira de Almeida
+- Graciette
+- Heitor
+- Theiccy
+- Suzi
+- Kassia
+- Michele Rolandi
+- Celi
+- Wilson
+- NAIALA
+- Fábio
+- Ana Paula
+- Simone
+- João Moraes
+- Sandro
+- Brisa
+- Carlos
+- Marcos paulo Quintanilha
+- Paulo
+- Fernando
+- Jessy
+- GUSTAVO
+- Jaison
+- Deusdeth
+- Thiago
+- Iranildo
+- Celso Camargo
+- Didi Lopes
+- Cristina Maria Leal Xavier
+- Renata
+- Bruno
+- Marcos Wellington dos Santos
+- Vinicius r miranda
+- Júlio César da Silva Rangel
+- Teste
+- Desconsidere
+
+### Cidade e Estado
+*N = 920*
+
+**Respostas abertas (todas):**
+
+- Curitiba- Paraná
+- Rio de Janeiro, RJ
+- Campinas - São Paulo
+- Belo Horizonte MG
+- Passos MG
+- Governador Valadares mg
+- Caeté Minas gerais
+- João Pessoa, Paraíba
+- Arraial do Cabo RJ
+- Santa Luzia mg
+- Açailândia Maranhão
+- Belo Horizonte MG
+- Itabira MG
+- Piracicaba SP
+- Nossa Senhora do Socorro / Sergipe
+- Nova Iguaçu / Rio de janeiro
+- Rosário-Maranhão
+- Assis Chateaubriand PR
+- Ji - Paraná / Rondônia
+- Maricá  Rio de Janeiro
+- Belo Horizonte MG
+- Belo Horizonte MG
+- Gravatai RS
+- Rio de janeiro RJ
+- São Bernardo do Campo, São Paulo
+- Natal/RN
+- Niteroi rj
+- Hortolândia-SP
+- Belo Horizonte MG
+- Recife Pe
+- Paulista, Pernambuco
+- Sidrolândia MS
+- Belo Horizonte- MG
+- São Paulo  SP
+- Sinop MT
+- Juiz de Fora MG
+- Recife Pernambuco
+- Niterói, RJ
+- Franca  sp
+- Rio de Janeiro RJ
+- Sorriso Mato Grosso
+- Macaé
+- Foz do iguaçu,  Paraná
+- Florianópolis sc
+- Cachoeirinha, Rio Grande do Sul
+- Niterói,RJ
+- Curitiba- Pr
+- Teresina- Piauí
+- Campo verde Mato Grosso
+- BELO HORIZONTE MINAS GERAIS
+- Parnaiba Piauí
+- Londrina
+- Belo Horizonte, Minas Gerais
+- Manaus-Amazonas
+- Bauru-Sp
+- Rondonópolis Mato Grosso
+- Governador Valadares-MG
+- João Pessoa ; Paraíba
+- Barra Bonita,SP
+- Salvador Bahia
+- AM/Manaus
+- Itaúna/MG
+- Santo Ângelo RS
+- Porto Alegre/RS
+- Rio de janeiro, campos dos Goytacazes
+- Belém/Pá
+- Boa Esperança MG
+- Walney
+- Rio de Janeiro
+- Santos, São Paulo
+- São Paulo  SP
+- Belo Horizonte,  MG
+- Rio de janeiro RJ
+- Teresina, Piauí
+- Ponta Grossa Paraná
+- Balneário camboriú
+- Maricá - RJ
+- Chapecó, Santa Catarina
+- Ponta Grossa, Paraná
+- Itajaí SC
+- Maracaju Mato grosso do Sul
+- Campinas SP
+- Rio das Ostras - RJ
+- Curitiba - Paraná
+- Araucária-Pr
+- Porto Alegre RS
+- Niterói RJ
+- Rio das ostras,rj
+- Belo Horizonte  Mg
+- Osasco - SP
+- Campo Grande, Mato Grosso do Sul
+- Jundiai SP
+- Guanambi Ba
+- Rio de janeiro
+- Jaboticabal-SP
+- Cacoal Rondônia
+- Santa Catarina
+- São Paulo, santo Amaro
+- Campo Grande ,MS
+- Balneário Camboriú-SC
+- São Gonçalo  RJ
+- Itapeva sp
+- Novo Hamburgo RS
+- Rio de Janeiro
+- Manaus Amazonas
+- Londrina Paraná
+- SANTA MARIA  DF
+- Montenegro  RS
+- Florianópolis
+- São Pedro da Aldeia RJ
+- Palhoça Santa Catarina
+- Campos dos Goytacazes RJ
+- Três Rios - RJ
+- Recife -PE
+- Viamão RS
+- São Paulo SP
+- Belo Horizonte MG
+- Rio Branco
+- Paulínia sp
+- Itauna/MG
+- RJ
+- Rio de Janeiro
+- Rondonópolis mato grosso
+- Rio-de-janeiro  -RJ
+- Campos dos Goytacazes - RJ
+- Montes Claros - MG
+- Rio de janeiro
+- Curitiba-PR
+- Niteroi/ RJ
+- Sorocaba São Paulo
+- São Luís MA
+- SP
+- Porto Alegre / RS
+- Sorocaba SP
+- Bebedouro SP
+- São Paulo /SP
+- Pelotas RS
+- Saquarema RJ
+- Imperatriz
+- Londrina Paraná
+- Nilópolis  RJ
+- Uberlândia - minas gerais
+- Tangará da serra Mato Grosso
+- Curitiba PR
+- São Paulo, capital
+- Juiz de Fora, Minas Gerais
+- Magé, Rio de janeiro
+- Marabá-PA
+- São Paulo/SP
+- São José sc
+- Belo horizonte MG
+- São Paulo SP
+- Cuiaba MT
+- RS
+- RIO DE JANEIRO CABO FRIO
+- Cidade ocidental-Goiás
+- Vitoria es
+- Itajaí SC
+- Maringa-PR
+- Juiz de Fora, MG
+- São Paulo,  SP
+- Guarujá SP
+- Sorocaba sp
+- Rio de Janeiro e Rio de Janeiro
+- Fortaleza/ Ceará
+- Ipatinga MG
+- Manaus -AM
+- Várzea grande mt
+- Salvador
+- Araucaria Paraná
+- Sorocaba-SP
+- Cuiabá
+- Recife PE
+- Niterói, Rio de Janeiro
+- Medianeira Paraná
+- Sorocaba SP
+- Macaé RJ
+- Porto alegre  rs
+- Bauru Sp
+- Feira de Santana
+- ribeirao preto sp
+- Sinop - MT
+- Bom despacho MG
+- Río de janeiro Rj
+- Uberlândia MG
+- Campo Grande MS
+- Cuiabá mato grosso
+- São Paulo -SP
+- Campinas- SP
+- João Monlevade/Minas Gerais
+- São Paulo
+- Lorena  SP
+- Assis São Paulo
+- Rio de Janeiro
+- Taubaté SP
+- Dourados MS
+- Manaus ,Amazonas
+- Amazonas Manaus
+- Barra do Garças, Mato Grosso
+- Lins SP
+- Minas Gerais
+- Ribeirão Preto São Paulo
+- Dourados MS
+- Rio de janeiro
+- Am - Manaus
+- Santos, São Paulo
+- Várzea grande Mato grosso
+- Florianópolis SC
+- Praia Grande SP
+- Rio de Janeiro, RJ
+- Cachoeiro de Itapemirim ES
+- Campo grande ms
+- Campo Grande
+- Rio de janeiro
+- Sete lagoas Mg
+- Tangará da Serra, Mato Grosso
+- Mirassol d oeste MT
+- Franca/SP
+- BH MG
+- Naviraí ms
+- Maracanaú - CE
+- Cuiabá Mt
+- Peixoto de Azevedo MT
+- Ibitinga-Sp
+- Barra do Piraí RJ
+- São Paulo
+- Rio de janeiro
+- Adilson
+- Manaus, Amazonas
+- Itaúna MG
+- Alvorada RS
+- Cabo de Santo agostinho PE
+- Niterói,Rj
+- Campo grande ms
+- Rio de Janeiro
+- Porto Velho - RO
+- Río de Janeiro
+- Manaus Amazonas
+- Campo grande
+- Montes Claros Minas Gerais
+- Sinop MT
+- Taubaté SP
+- Linhares ES
+- Cuiabá MT
+- Manaus/AM
+- Luziânia Go
+- Sinop
+- Campo Grande MS
+- Sorriso MT
+- São Paulo SP
+- Salvador. Bahia
+- Cuiaba
+- Mato grosso sorriso
+- Maracaju mato grosso do sul
+- Cuiabá Mato Grosso
+- Fortaleza e Ceará
+- Rio de Janeiro
+- Boa Vista-Roraima
+- Corumbá - MS
+- Dourados
+- Rondonopolis mt
+- Porto Velho Rondônia
+- RJ
+- Fortaleza, Ce
+- Miranda ms
+- Manaus - Amazonas
+- Manaus Am
+- Campo Grande MS
+- Amazonas
+- manaus am
+- Passo fundo
+- Belo Horizonte - Minas Gerais
+- Criciúma SC
+- Rio de Janeiro
+- Sorocaba sp
+- Toledo Paraná
+- Sertãozinho SP
+- Araruama rj
+- Sp
+- São Gonçalo - RJ
+- Belford roxo - Rio de Janeiro
+- Londrina Paraná
+- Sete lagoas Minas gerais
+- Minas Gerais
+- Castro Paraná
+- Rio de Janeiro
+- João Pessoa Paraíba
+- BH ,  MG
+- São Paulo Guarulhos
+- Rio de janeiro
+- Fortaleza Ceará
+- SANTOS SP
+- Ipatinga minas gerais
+- Sete lagoas Minas gerais
+- Teresina Piauí
+- Maranhão
+- Rio de Janeiro - RJ
+- Caxias Maranhão
+- Mateus leme
+- Maceió -Alagoas
+- Salvador Bahia
+- Brasília
+- Cianorte Paraná
+- Belo Horizonte MG
+- Brasília-DF
+- Vespasiano MG
+- Rio de Janeiro / RJ
+- Campos dos Goytacazes RJ
+- Governador Valadares Minas Gerais
+- Rio de Janeiro RJ
+- Ponta grossa pr
+- São Carlos SP
+- João Pessoa - Paraíba
+- Belo Horizonte MG
+- Ribeirão Preto SP
+- Piripiri-Pi
+- Jacutinga MG
+- Maringa pr
+- Sao paulo - Sp
+- São Paulo, SP
+- Ribeirão Preto SP
+- Rio de Janeiro
+- Santa Catarina Florianópolis
+- Maranguape CE
+- União - Piauí
+- Rio de janeiro
+- NITERÓI - RIO DE JANEIRO
+- Maranguape, Ceará
+- Porto Alegre
+- rio de janeiro
+- Belo Horizonte MG
+- São Leopoldo, RS
+- SP
+- BH Minas gerais
+- Paraná do Sul ,Rio de Janeiro
+- Belo Horizonte, Minas Gerais
+- Jaboatão dos Guararapes PE
+- Carapicuiba/SP
+- Rio de Janeiro
+- Rio de janeiro
+- Paranaguá / pr
+- Porto alegre
+- Itaperuna Rj
+- São Sebastião do Cai RS
+- Leopoldina MG
+- Sao mateus do Maranhao
+- Rio de Janeiro RJ
+- São Gonçalo, RJ
+- Araruama Rio de Janeiro
+- Brasília DF
+- São Gonçalo RJ
+- São Paulo
+- Duque de Caxias RJ
+- Rj
+- Campos dos Goytacazes Rj
+- Brasília
+- Governador Valadares, Minas Gerais
+- Uberaba MG
+- Medianeira Paraná
+- Fortaleza, Ceará
+- Minas gerais
+- Campina Grande pb
+- Uberaba mg
+- Montes Claros  Minas Gerais
+- Santa Luzia minas gerais
+- Curitiba Pr
+- Porto Alegre RS
+- Armação dos Búzios rio de janeiro
+- Barra mansa Rio de Janeiro
+- Amparo São Paulo
+- Rio de Janeiro
+- Fortaleza Ceará
+- Brasília DF
+- Camacari Bahia
+- Rj são gonçalo
+- Paraiba
+- Niterói Rj
+- Belo Horizonte/ MG
+- João pessoa
+- São Paulo SP
+- Catanduva.sp
+- Niteroi Rj
+- Vitória ES
+- São Paulo -SP
+- São Gonçalo, Rio de janeiro
+- Franca
+- São Paulo, capital
+- Novo Hamburgo RS
+- Rio de janeiro
+- Balsas Maranhão
+- Planaltina GO
+- Belo Horizonte MG
+- Curvelo Minas gerais
+- Erechim Rs
+- Esmeraldas
+- Caxias do Sul RIo grande do sul
+- Vitoria, espírito santo
+- Itaboraí rio de janeiro
+- Jacareí, São Paulo
+- CARAGUATATUBA SP
+- Salvador/ Bahia
+- Santo André
+- Sumaré/SP
+- Santa Maria RS
+- Petrolina PE
+- recife PE
+- São Paulo
+- São Paulo capital
+- Rio de Janeiro - RJ
+- Sao paulo capital
+- Senador Canedo Goias
+- Passo Fundo rio grande do sul
+- São Paulo SP
+- Taubaté são Paulo
+- São Luís, Maranhão
+- Santos - SP
+- Curitiba Parana
+- Rio de Janeiro
+- Porto Alegre Rio Grande do sul
+- São Paulo Capital
+- Rio de Janeiro e Rio de Janeiro
+- Cachoeira Paulista - SP
+- Lorena sp
+- Rio de Janeiro, RJ
+- Taquara RS
+- Recife PE
+- São Paulo
+- Rosario do sul, rio grande do sul
+- Santo André - SP
+- Curitiba-PR
+- Belém para
+- Florianópolis, Santa Catarina
+- Rio de Janeiro nova iguaçu
+- Sarandi parana
+- Curitiba/PR
+- Rio de Janeiro
+- Sorocaba SP
+- Recife PE
+- Guaratigueta São Paulo
+- Bauru
+- Porto Alegre RS
+- Rio de Janeiro
+- São Paulo
+- Ananindeua
+- Londrina Parana
+- Salvador/Ba
+- Ribeirão Preto SP
+- Jundiai - SP
+- Porto Alegre RS
+- Sorocaba São Paulo
+- Ipiranga PR
+- Campos dos Goytacazes RJ
+- Hortolândia sp
+- Praia grande sp
+- Sorocaba
+- Porto Alegre RS
+- Unaí MG
+- Porto Alegre - RS
+- Minas Gerais/Belo Horizonte
+- Porto Alegre
+- Marabá/PA
+- Teresina-PI
+- Jaboticabal sp
+- Porto Alegre
+- São Paulo sp
+- Magé rj
+- São Paulo
+- Curitiba PR
+- São João de Meriti,RJ
+- Aparecida SP
+- Rio grande do Sul
+- Guaíba RS
+- Santa Catarina
+- Itaúna MG
+- São paulo
+- Rio de janeiro - rj
+- Pernambuco/ Recife
+- Pirassununga/SP
+- Catanduva sp
+- Rio de janeiro
+- Anapolis/GO
+- Osasco - SP
+- Espírito Santo
+- Rio de janeiro
+- Belo Horizonte MG
+- Betim, Minas Gerais
+- Paulo Afonso - Bahia
+- Ouro Branco mg
+- Iguana Grande, RJ
+- Rio de janeiro - RJ
+- Cascavel Paraná
+- Imperatriz ma
+- São José do Rio Preto -SP
+- São Paulo Sp
+- Santa Maria rs
+- Ribeirão preto (sp)
+- Rio de janeiro
+- São Paulo
+- Rio das ostras rj
+- Salvador Bahia
+- Três Rios, Rio de Janeiro
+- São Joaquim da Barra
+- Guarujá, São Paulo
+- Praia Grande SP
+- Vespasiano
+- Pirapora Minas gerais
+- Campos dos Goytacazes, Rio de Janeiro
+- Rio de janeiro
+- Itaberaba - Bahia
+- Nova Friburgo Rio de janeiro
+- Brasília DF
+- Novo Hamburgo RS
+- Belo Horizonte/MG
+- Matinhos, Parana
+- Rio de janeiro-RJ
+- Contagem, Minas Gerais
+- Contagem
+- Ocara, Ceará
+- Barra Mansa RJ
+- São Paulo , SP
+- Campo limpo paulista
+- Rio de Janeiro
+- Uberaba-mg
+- TIANGUA/ Ce
+- Belford roxo,rio de janeiro
+- Florianópolis, Santa Catarina
+- Franca SP
+- Guarulhos, São Paulo
+- Osasco SP
+- Viamão - RS
+- RJ
+- Sao Paulo-Sp
+- Rio de Janeiro
+- Limeira SP
+- Salvador Bahia
+- Grajaú MA
+- Bh - Mg
+- Petrolina-PE
+- Feira de santana Bahia
+- Recife pe
+- João Pessoa
+- Goiânia GO
+- Itaboraí RJ
+- Porto Alegre -RS
+- Leme SP
+- Minas Gerais
+- Joinville / Santa Catarina
+- Serrana SP
+- Macaé
+- Muriaé MG
+- São José dos pinhais
+- Uberaba mg
+- Rio de janeiro
+- Taubaté SP
+- Ribeirão preto sp
+- São Paulo
+- Salvador BA
+- Osório RS
+- Rio de Janeiro
+- Sabara MG
+- Lavras Mg
+- Campina grande Paraiba
+- Paracatu MG
+- Belo Horizonte MG
+- São Paulo -São Paulo
+- Canoas RS
+- São Paulo
+- Estância
+- Fortaleza
+- Varginha Minas Gerais
+- Salvador Bahia
+- Porto alegre - RS
+- Belo horizonte minas gerais
+- Mogi Mirim SP
+- Três rios  RJ
+- Belo Horizonte, Minas Gerais
+- Almirante Tamandaré, Paraná
+- Rio de Janeiro/ RJ
+- Rj
+- Ubatuba/SP
+- São José SC
+- Gravatá pe
+- Olinda bultrins pernambuco
+- Nova Friburgo RJ
+- Porto alegre rs
+- Unaí MG
+- Recife Pe
+- Belo Horizonte Minas Gerais
+- Araruama Rio de Janeiro
+- São Paulo
+- Itaborai
+- João Monlevade MG
+- Mesquita RJ
+- Sp
+- Vacaria RS
+- RJ Itaboraí
+- Rio de janeiro
+- Blumenau SC
+- São Gonçalo, Rio de janeiro
+- UberabaMG
+- Bom despacho Minas Gerais
+- Nova Iguaçu  rio de Janeiro
+- Rio de janeiro
+- Rio de Janeiro
+- Itu Sp
+- São Paulo - SP
+- Marataízes  es
+- Taquaritinga são Paulo
+- Divinópolis MG
+- Cascavel-Pr
+- Rio de janeiro
+- Guarulhos , SP
+- Campos dos Goytacazes RJ
+- Imperatriz - MA
+- Maringa - pr
+- São José do Rio Preto-SP
+- Floriano Piauí
+- Campina GRande
+- Rj
+- São Paulo sp
+- Leopoldina mg
+- Igarapé -Minas gerais
+- Rio de Janeiro
+- Bauru SP
+- Curitiba/ Pr
+- Limeira SP
+- Río de janeiro RJ
+- Sorocaba SP
+- Teresina piaui
+- São Paulo
+- Passos Minas Gerais
+- Paulista PE
+- Rio de janeiro
+- Curvelo mg
+- Nova Iguaçu rj
+- Rio de Janeiro, RJ
+- Recife Pernambuco
+- Viamão RS
+- Vitoria da conquista Bahia
+- Jacareí
+- São Paulo Sp
+- Guaxupé MG
+- Bauru SP
+- Matinhos Paraná
+- Rio de Janeiro
+- São Paulo,  SP
+- Teresina Piauí
+- Hortolandia SP
+- Viamão rs
+- Niterói
+- Governador Valadares MG
+- São João de Meriti-RJ
+- São Gonçalo/RJ
+- Vila Rica MT
+- Recife Pernambuco
+- Belo Horizonte - MG
+- Belo Horizonte Minas gerais
+- São Paulo/SP
+- RS Caxias do sul
+- São Paulo  SP
+- Jaú - São Paulo
+- Natal rn
+- Arcoverde Pernambuco
+- Uberlândia/Mg
+- São Bernardo do Campo/SP
+- Xinguara Pará
+- Nova Iguaçu
+- Rio de Janeiro
+- João Pessoa - Paraíba
+- Aracaju-SE
+- São paulo
+- Registro, SP
+- Londrina PR
+- Araçatuba SP
+- Poa rs
+- Santos são Paulo
+- Rio de janeiro
+- rio de janeiro, rj
+- Aparecida de Goiânia Goiás
+- Maricá-RJ
+- Araraquara - São Paulo
+- olinda  pernambuco
+- Sorocaba São Paulo
+- São Paulo
+- São Paulo - SP
+- São Paulo sp
+- Pará
+- Alfenas - MG
+- Brasília
+- São Paulo
+- Santa Luzia Minas Gerais
+- São Paulo/SP
+- Rio de janeiro
+- SÃO PAULO/SP
+- São Paulo sp
+- Itajaí / SC
+- Uberlândia MG
+- Niterói Rio de Janeiro
+- Esteio RS
+- Araruama RJ
+- Jequié BA
+- Bom despacho MG
+- Estância se
+- São Paulo
+- São paulo
+- São Paulo
+- Rio de Janeiro RJ
+- São Paulo
+- São Carlos - SP
+- Garopaba
+- Balneario Camboriu Santa catarina
+- Rio de Janeiro
+- Nova Iguaçu Rio de Janeiro
+- GO
+- Itapevi são Paulo
+- Bauru-sp
+- Brasilia-DF
+- Natal, RN
+- Natal / RN
+- São Paulo SP
+- Rj
+- Santa Maria - Rio grande do Sul
+- São Paulo
+- Castanhal pará
+- Porto Alegre, RS
+- Aracaju Minas Gerais São Paulo
+- Curitiba PR
+- Goiânia Goiás
+- Belém do Pará
+- Niteroi/RJ
+- São Paulo sp
+- Rio de Janeiro
+- Curitiba pr
+- Viamão, Rio grande do sul
+- Florianópolis/ SC
+- Rio de Janeiro RJ
+- São Paulo Capital
+- Londrina Paraná
+- Piauí
+- Rio de Janeiro
+- Itajaí SC
+- Osasco São Paulo
+- Santa Maria, Rio Grande do Sul
+- Rio de Janeiro
+- São Luís/maranhao
+- Mogi Guaçu - São Paulo
+- Recife, Pernambuco
+- Campinas - SP
+- Seabra - Bahia
+- Taboão da Serra- sp
+- Niterói, Rio de Janeiro
+- São José dos Campos/SP
+- Caieiras SP
+- Brasíllia
+- Maringá Paraná
+- Barra bonita sp
+- São Caetano do Sul SP
+- Novo Repartimento Para
+- Marica rj
+- Ribeirao preto
+- Santa Maria Rio grande do Sul
+- Belo Horizonte
+- São Paulo
+- Salvador Bahia
+- Rio de Janeiro
+- Fortaleza ceará
+- Santos sao paulo
+- Guaxupé Minas gerais
+- Porto Alegre  RS
+- Maringá
+- Porto alegre Rio Grande do Sul
+- Jaraguá-Go
+- Campos dos Goytacazes, Rio de Janeiro
+- São Luís Maranhao
+- São Paulo
+- Fortaleza- Ce
+- Guarujá - São Paulo
+- Sorocaba
+- Anápolis
+- Jacobina
+- União da vitória
+- Niterói- Rio de Janeiro
+- Rio de janeiro
+- Belo Horizonte MG
+- bh mg
+- Tatuí, São Paulo
+- Taubate São Paulo
+- Buri -São Paulo
+- cuririba pr
+- Olinda, Pernambuco
+- João Pessoa, Paraiba
+- Belford Roxo. RJ
+- Francisco Morato Sp
+- São Lourenço do oeste SC
+- SC
+- Suzano-SP
+- São Paulo, SP
+- olinda  pe
+- Itaboraí, Rio de Janeiro
+- Cascavel PR
+- São Paulo
+- Itatiba/SP
+- Rio de Janeiro RJ
+- Rio
+- Várzea da palma MG
+- Curitiba Parana
+- São Paulo SP
+- Minas Gerais
+- Volta Redonda RJ
+- São Carlos - SP
+- Curitiba/PR
+- Parobé RS
+- Divinópolis MG
+- Franca sp
+- Salvador - Bahia
+- Limeira-Sp
+- Rio das Ostras, RJ
+- Ipira
+- SP
+- Rio de janeiro
+- Rio de Janeiro
+- Rio de Janeiro
+- Piracicaba, SP
+- Salvador / BA
+- Belém Pará
+- Belo Horizonte Minas gerais
+- Niterói/RJ
+- São José do Rio preto sp
+- Porto Alegre / RS
+- Pouso alegre mg
+- Camaçari BA
+- Bebedouro/sp
+- São Gonçalo/ Rio de Janeiro
+- Nova Iguaçu- RJ
+- Rio de Janeiro
+- São Paulo
+- Salvador, Bahia
+- São Paulo
+- Serra ES
+- Rj
+- Santa Luzia MA
+- Rio de Janeiro
+- Rio de janeiro
+- Rio de janeiro
+- Belo Horizonte, Mg
+- São Luís Maranhão
+- São Paulo, capital
+- São Bernardo do Campo- SP
+- Rio de Janeiro Janeiro
+- caçador sc
+- Limeira sp
+- Igarapé- Minas Gerais
+- São Paulo
+- Guarulhos Sp
+- Maranhao
+- São José do Rio Preto SP
+- Montes Claros-MG
+- Paraíba
+- Bauru sp
+- Bento Gonçalves RS
+- Rio de Janeiro RJ
+- Campo grande,RJ
+- Te
+- Belo Horizonte/ MG
+- Ribeirão Preto sp
+- Rio Branco - Acre
+- Juiz de fora - MG
+- Campinas
+- Jandira-SP
+- Maricá RJ
+- Campos dos Goytacazes RJ
+- São Paulo, São Paulo
+- Vila Velha - ES
+- Pará
+- Embú das artes SP
+- Itanhaém - SP
+- Contagem/MG
+- Coroatá
+- Caldas novas Go
+- Recife
+- Porto Alegre/RS
+- Boa vista-RR
+- Rio de Janeiro
+- BH / MG
+- Aracaju/Sergipe
+- Mato Grosso
+- Recife
+- Contagem Minas gerais
+- Campo Grande MS
+- São Paulo SP
+- São Paulo - SP
+- Teresópolis rj
+- Juíz de fora - mg
+- Guarulhos/São Paulo
+- Araçatuba SP
+- Juiz de Fora, Minas Gerais
+- Rio de Janeiro/RJ
+- São José dos Campos SP
+- São Paulo SP
+- São Paulo SP
+- Piracicaba - SP
+- Rio de Janeiro
+- Ipatinga MG
+- Belém - PA
+- João pessoa Pb
+- Vil Velha ES
+- São José
+- Goiânia Goiás
+- Valparaiso de Goiás
+- Cotia/Sp
+- Sp Taboão da serra
+- Jandira-SP
+- Niterói-RJ
+- Recife PE
+- Barretos Sp
+- Belo Horizonte MG
+- Jacarei, sao paulo
+- Rio de Janeiro
+- Porto Alegre RS
+- x
+
+### Você é maior de 18 anos?
+*N = 967*
+
+- Sim: 967 (100.0%)
+
+### Você costuma tomar Chopp Brahma?
+*N = 967*
+
+- Sim: 655 (67.7%)
+- Não: 312 (32.3%)
+
+### E você já pediu Chopp + Choppeira no Zé?
+*N = 655*
+
+- Não: 579 (88.4%)
+- Sim: 76 (11.6%)
+
+### E pra qual ocasião você costuma pedir?
+*N = 71*
+
+- Churrasco: 39 (54.9%)
+- Encontros Familiares: 17 (23.9%)
+- Aniversário: 10 (14.1%)
+- Jogo de Futebol: 5 (7.0%)
+
+### Other
+*N = 62*
+
+**Respostas abertas (todas):**
+
+- Nunca tem disponibilidade de entrega no meu bairro.
+- Falta de ocasião propícia
+- Não tenho interesse
+- Inviável para consumo individual
+- Meu consumo é relativamente pequeno, compro cerveja em lata
+- Faz muito tempo que comprei
+- Por prefeito garrafinha
+- Prefiro latinhas
+- Não tem espaço e a quantidade é muita quantidade
+- N
+- Porque moro sozinha
+- Não tinha disponibilidade
+- Na minha cidade o Zé não tem chop
+- Não tem na minha cidade
+- Nao gosto de chopp em casa, prefiro em bares
+- Não tem na minha cidade
+- Não costumo pedir chopeira
+- Não tem na minha cidade
+- Ainda não tive oportunidade
+- Tomo chopp no bar
+- Consumo maís cerveja
+- Indispensável no município
+- Não tive necessidade ainda
+- Não está disponível para a minha cidade
+- Por não participar ou promover uma festividade ou evento que necessite de muita litragem de chopp
+- Aqui no distribuidor não tem
+- Tem tempos que não compro barril de chop.
+- Acabo pedindo cerveja
+- Aqui não tem
+- Na minha cidade não tem
+- Não há motivo específico
+- Nao tem na minha cidade
+- Meu marido não gosta
+- Falta de dinheiro
+- Eu compro o Chopp Lata
+- Ainda não tive oportunidade
+- Em minha cidade não há atendimento
+- Não  tenho costume de tomar chopp
+- Não disponível na minha cidade
+- Bebo geralmente só. É muito chopp para mim
+- Faltou um momento especifico
+- Outros
+- Não tem na minha região
+- Prefiro pedir Brahma lata pelo aplicativo
+- Sem opção
+- Pq não fiz evento pra ter chopp então prefiro pedir cerveja
+- Não tem na minha cidade
+- Muita quantidade para mim
+- Sempre pedi no Brahma Express
+- Pq só costumo menores
+- Nunca achei disponível no app
+- É muito choop para uma pessoa só
+- Ainda não precisei
+- Geralmente long necks
+- Não tenho galera pra tomar 30 litros
+- Não tem no Zé Delivery da minha cidade
+- Pois é muito apenas para eu tomar sozinho.
+- Não tem em minha cidade
+- Não tive a oportunidade
+- Não tem disponível queria muito pedir
+- Sempre compro no shopping da minha cidade
+- Não tem disponível aqui.
+
+### E quanto tempo antes você se planeja para esse tipo de evento?
+*N = 76*
+
+- No mesmo dia: 41 (53.9%)
+- 1 Semana antes: 13 (17.1%)
+- 1 Mês: 10 (13.2%)
+- 2-3 Semanas: 9 (11.8%)
+- 2 - 3 Meses  antes: 3 (3.9%)
+
+### E porque você não consome Chopp?
+*N = 312*
+
+- Acho caro: 143 (45.8%)
+- Nunca Experimentei: 78 (25.0%)
+- Experimentei e não gostei: 70 (22.4%)
+- Não Bebo: 21 (6.7%)
+
+### Porque você nunca pediu Chopp no Zé Delivery
+*N = 517*
+
+**Respostas abertas (todas):**
+
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não sei qual litragem pedir
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não sei qual litragem pedir
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Achei muito caro
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não sei qual litragem pedir
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não sei qual litragem pedir
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Prazo de Entrega é muito longo
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Não sei qual litragem pedir
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não sei qual litragem pedir
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não sei qual litragem pedir
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não sei qual litragem pedir
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Prazo de Entrega é muito longo
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Prazo de Entrega é muito longo
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não sei qual litragem pedir
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não sei qual litragem pedir
+- Prazo de Entrega é muito longo
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não sei qual litragem pedir
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Prazo de Entrega é muito longo
+- Achei muito caro
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Não Sabia que era possivel
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Não Sabia que era possivel
+- Não conheço a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Achei muito caro
+- Achei muito caro
+- Não sei qual litragem pedir
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não Sabia que era possivel
+- Não entendi como funciona a modalidade de Chopp + Chopeira em casa
+- Não sei qual litragem pedir
+- Achei muito caro
+- Achei muito caro
+- Achei muito caro
+- Não conheço a modalidade de Chopp + Chopeira em casa
+
+### E qual ocasião você acredita que o Chopp + Chopeira em casa mais combina?
+*N = 579*
+
+- Churrasco com amigos: 313 (54.1%)
+- Aniversário: 147 (25.4%)
+- Encontro da família  pessoas: 105 (18.1%)
+- Feriados: 14 (2.4%)
