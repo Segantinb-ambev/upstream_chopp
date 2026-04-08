@@ -15,7 +15,10 @@ ideas/                  - Captured thoughts
 context/                - LLM context (writing style, business profile)
 daily/                  - Daily plans (YYYY-MM-DD.md)
 weekly/                 - Weekly summaries (YYYY-WNN.md)
-outputs/                - Deliverables (YYYY-MM-DD-<slug>.<ext>), linked from source file
+outputs/                - Deliverables organized by project folder
+  <project-slug>/
+    YYYY-MM-DD-<description>.<ext>
+  geral/              - Outputs not linked to a specific project
 ```
 
 Tasks go directly in their folder: `tasks/my-task.md`
