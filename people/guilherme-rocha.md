@@ -13,5 +13,5 @@ PM do time. Acesso ao vault compartilhado `upstream_chopp` no GitHub.
 
 ## Follow-ups
 
-- [ ] Confirmar que aceitou o convite do GitHub
+- [x] Confirmar que aceitou o convite do GitHub
 - [ ] Confirmar que fez o clone com submodules e está com o Cursor funcionando
