@@ -8,7 +8,9 @@ context/financial-profile.md
 daily/
 
 # ── Cursor IDE local settings (machine-specific) ──────────────────────────────
-.cursor/
+# Ignorar configs locais mas compartilhar skills e rules
+.cursor/mcp.json
+.cursor/settings.json
 
 # ── Claude local settings (machine-specific paths and permissions) ────────────
 .claude/settings.local.json

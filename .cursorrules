@@ -107,6 +107,19 @@ Before writing or complex tasks, always check:
 
 These files are the source of truth for how to frame work output.
 
+## GitHub Sync
+
+Este vault está sincronizado com `github.com/Segantinb-ambev/upstream_chopp` (SSH via `github-ambev`).
+
+**Após criar ou editar qualquer arquivo**, verifique se há commits pendentes:
+```bash
+git log origin/main..HEAD --oneline | wc -l
+```
+Se for > 0, inclua no final da resposta:
+> **GitHub:** N commit(s) pendente(s). Quer enviar agora para o Gui? (use `/push`)
+
+**Atalhos disponíveis:** `/push`, `/pull`, `/sync`, `/status`
+
 ## Cursor Skills
 
 Skills available in `.cursor/skills/`:
@@ -118,5 +131,6 @@ Skills available in `.cursor/skills/`:
 | `work-today` | Daily plan including sensitive work tasks and projects |
 | `weekly-review` | Weekly review — delivered, blockers, next week priorities |
 | `project-status` | Update next action or notes on a project after a meeting |
+| `git-sync` | Push, pull, sync with GitHub, check pending commits, share updates with Gui |
 
 To invoke: tell Cursor which skill to use, e.g. "use work-capture to log..."
