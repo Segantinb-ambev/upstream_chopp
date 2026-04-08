@@ -9,7 +9,7 @@ updated: 2026-04-07
 ---
 
 ## Next Action
-Apresentar a arquitetura da solução para o Guilherme: banner em 3 fases (Copa vem aí → Countdown → Urgência/Escassez) começando em Maio + Schedule da Copa como tela dedicada com jogos do Brasil e jogos grandes destacados. Ver [[outputs/2026-04-07-copa-showcase-arquitetura]].
+Apresentar a arquitetura da solução para o Guilherme: banner em 3 fases (Copa vem aí → Countdown → Urgência/Escassez) começando em Maio + Schedule da Copa como tela dedicada com jogos do Brasil e jogos grandes destacados. Ver [[outputs/copa-2026-chopp/2026-04-07-copa-showcase-arquitetura]].
 
 ## Contexto
 
