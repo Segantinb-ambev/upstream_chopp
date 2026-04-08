@@ -1,0 +1,3 @@
+[submodule ".cursor/skills/lipe"]
+	path = .cursor/skills/lipe
+	url = git@github.com:ab-inbev-ze-company/Skill-LIPE.git
