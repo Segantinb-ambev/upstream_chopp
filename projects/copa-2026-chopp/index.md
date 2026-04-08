@@ -37,7 +37,7 @@ Fase eliminatória começa em 28/jun com oitavas (se Brasil avançar).
 ## Outputs
 
 - [[context]] — benchmarks, calendário completo e análise das soluções
-- [[outputs/2026-04-07-copa-showcase-arquitetura]] — arquitetura do produto (3 camadas, fluxos, métricas, roadmap)
+- [[outputs/copa-2026-chopp/2026-04-07-copa-showcase-arquitetura]] — arquitetura do produto (3 camadas, fluxos, métricas, roadmap)
 - [[research/2026-04-07-calendar-marketing-desk-research]] — desk research: calendar marketing e duas versões da Showcase
 
 ## Notas
